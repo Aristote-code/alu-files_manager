@@ -205,7 +205,7 @@ class FilesController {
           return response.status(404).json({ error: 'Not found' });
         }
         return response.status(200).json(file.value);
-      }
+      },
     );
     return null;
   }
@@ -229,7 +229,7 @@ class FilesController {
           return response.status(404).json({ error: 'Not found' });
         }
         return response.status(200).json(file.value);
-      }
+      },
     );
     return null;
   }
@@ -293,7 +293,7 @@ class FilesController {
           }
         } else {
           console.log(
-            `Wrong user: file.userId=${file.userId}; userId=${user._id}`
+            `Wrong user: file.userId=${file.userId}; userId=${user._id}`,
           );
           return response.status(404).json({ error: 'Not found' });
         }
