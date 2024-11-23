@@ -1,1 +1,1 @@
-# files manager
+# alu-files_manager
